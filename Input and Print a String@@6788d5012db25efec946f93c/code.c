@@ -1,6 +1,7 @@
 #include <stdio.h>
-char a[]="";
+int main(){
+char a[100];
 scanf("%s", &a);
 printf("You entered: %s",a);
-return 0;
+return 0;}
 
