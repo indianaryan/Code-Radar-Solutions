@@ -7,7 +7,7 @@ int main() {
    
     area = 3.14 * r * r
 
-    // Print the area
+   
     printf("Area : %.2f\n", area);
 
     return 0;
