@@ -1,9 +1,10 @@
 #include <stdio.h>
-
-
 int main() {
-  int a;
-  int b;
-  a>b?printf("a is greater"):printf(b is greater);
-  return 0;
+   int a;
+   int b;
+   scanf("%d %d",&a,&b);
+   if(a>b){
+    printf("%d is greater than %d\n",a,b);
+   } 
+   return 0;
 }
