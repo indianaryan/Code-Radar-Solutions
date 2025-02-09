@@ -6,9 +6,9 @@ int main() {
 
     
     if ((num1 ^ num2) < 0) {
-        printf("true");
+        printf("True");
     } else {
-        printf("false");
+        printf("False");
     }
 
     return 0;
