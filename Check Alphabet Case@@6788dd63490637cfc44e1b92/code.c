@@ -10,7 +10,7 @@ int main(){
         printf("Lowercase");
     }
     else{
-        print("Not an alphabet")
+        print("Not an alphabet");
     }
     return 0;
 }
