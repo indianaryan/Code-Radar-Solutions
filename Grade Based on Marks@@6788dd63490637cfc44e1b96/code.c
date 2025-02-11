@@ -3,6 +3,7 @@
 int main() {
     char grade;
     int marks;
+    scanf("%d",&marks);
 
     if(marks>=90){
         grade= 'A';
