@@ -6,9 +6,9 @@ int main(){
    if(a == b) {
         printf(" Equal");
     } else if(a > b) {
-        printf("The first number is larger");
+        printf("First");
     } else {
-        printf("The second number is larger");
+        printf(" Second");
     }
     
     return 0;
