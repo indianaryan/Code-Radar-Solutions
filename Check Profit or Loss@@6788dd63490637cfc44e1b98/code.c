@@ -2,7 +2,7 @@
 
 int main() {
     int price,selling;
-    scanf("%f",&price);
+    scanf("%d %d",&price,&selling);
     if(selling-price>0){
         printf("Profit");
     }
