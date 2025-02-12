@@ -2,7 +2,7 @@
 int main(){
     int Celsius;
     scanf("%d",&Celsius);
-    if(celsius<=0){
+    if(Celsius<=0){
         printf("Freezing");
     }
     else{
