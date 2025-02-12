@@ -9,4 +9,5 @@ int main(){
     else{
         print("No");
     }
+    return 0;
 }
