@@ -4,8 +4,8 @@ int main() {
     char op;
     double num1, num2;
     
-    scanf("%d %d", &num1, &num2);
-    scanf("%c", &op);
+    scanf("%d %d %c", &num1, &num2,&op);
+
     
 
     switch (op) {
