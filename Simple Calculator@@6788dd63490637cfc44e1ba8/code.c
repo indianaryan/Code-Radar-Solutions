@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char operator;
+    char op;
     double num1, num2;
     
     scanf("%lf %lf", &num1, &num2);
-    scanf("%c", &operator);
+    scanf("%c", &op);
     
 
-    switch (operator) {
+    switch (op) {
         case '+':
             printf("%.2lf + %.2lf = %.2lf",num1,num2,num1+num2 );
             break;
