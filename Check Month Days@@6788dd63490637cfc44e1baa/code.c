@@ -6,7 +6,7 @@ int main(){
         printf("31");
     }
     else if(days==2){
-        printf("28")
+        printf("28");
     }
     else if(days==3){
         printf("31");
