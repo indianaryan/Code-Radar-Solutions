@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(){
     char ch;
-    int lights;
-    scanf("%d %c",&ch,&lights);
+    scanf("%c",&ch);
     if (ch=='R'){
         printf("Stop");
     }
