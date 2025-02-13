@@ -12,7 +12,7 @@ int main(){
         printf("31");
     }
     else if(days==4){
-        printf("30")
+        printf("30");
     }
     else if(days==5){
         printf("31");
