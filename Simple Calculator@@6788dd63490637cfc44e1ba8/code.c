@@ -10,17 +10,17 @@ int main() {
 
     switch (op) {
         case '+':
-            printf("%.2lf + %.2lf = %.2lf",num1,num2,num1+num2 );
+            printf("%d",num1+num2 );
             break;
         case '-':
-            printf("%.2lf - %.2lf = %.2lf",num1,num2,num1-num2 );
+            printf("%d",num1-num2 );
             break;
         case '*':
-            printf("%.2lf * %.2lf = %.2lf",num1,num2,num1*num2);
+            printf("%d",num1*num2);
             break;
         case '/':
             if (num2 != 0.0) {
-                printf("%.2lf / %.2lf = %.2lf", num1,num2,num1/num2);
+                printf("%d",,num1/num2);
             } else {
                 printf("Division by zero is not allowed");
             }
