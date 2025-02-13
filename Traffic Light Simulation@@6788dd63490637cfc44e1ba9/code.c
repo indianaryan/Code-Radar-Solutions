@@ -3,13 +3,16 @@ int main(){
     char ch;
     int lights;
     scanf("%d %c",&ch,&lights);
-    if(lights==Stop){
-        ch 'R';
+    if (ch='R'){
+        printf("Stop");
     }
-    else if(lights==Go){
-        ch 'G';
+    else if(ch='G'){
+        printf("Go");
     }
-    else if(lights==Slow Down){
-        ch 'Y';
+    else if(ch='Y'){
+        printf("Slow Down");
+    }
+    else{
+        printf("Invalid input");
     }
 }
