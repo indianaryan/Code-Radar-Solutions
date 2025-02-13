@@ -7,7 +7,7 @@ int main(){
         ch 'R';
     }
     else if(lights==Go){
-        ch 'G'
+        ch 'G';
     }
     else if(lights==Slow Down){
         ch 'Y';
