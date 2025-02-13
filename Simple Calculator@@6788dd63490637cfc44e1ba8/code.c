@@ -2,7 +2,7 @@
 
 int main() {
     char op;
-    double num1, num2;
+    int num1, num2;
     
     scanf("%d %d %c", &num1, &num2,&op);
 
